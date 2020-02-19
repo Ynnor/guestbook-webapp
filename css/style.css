@@ -1,0 +1,103 @@
+/*******************************************************************************
+ * Projekt, Kurs: DT161G
+ * File: style.css
+ * Desc: Style sheets for Projekt
+ * 
+ * Robin Jönsson
+ * rojn1700
+ * rojn1700@student.miun.se
+ ******************************************************************************/
+
+body {
+    margin: auto 0;
+    background-color: #CCCCCC;
+    color: #444444;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    border-bottom: solid 3px black;
+    justify-content: flex-end;
+}
+
+header > h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+main > section {
+    margin: 0 0 0 230px;
+    padding-left: 25px;
+    height: 100%;
+    position: relative;
+    background-color: #FAFAFA;
+    top: -20px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.userPage {
+    top: 0;
+}
+
+.navbar {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+    padding-left: 30px;
+    border-right: solid 3px black;
+}
+
+.navbar > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #444444;
+    display: block;
+}
+
+.navbar a:hover {
+    color: #999999;
+}
+
+.userContainer {
+    padding-right: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.image {
+    width: 200px;
+}
+
+.folder {
+    width: 200px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
